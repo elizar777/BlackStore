@@ -6,7 +6,7 @@ from apps.users.serializers import UserSerializer
 from apps.users.models import User
 # Create your views here.
 
-class ProductAPI(GenericViewSet,
+class UserAPI(GenericViewSet,
                  mixins.ListModelMixin,
                  mixins.RetrieveModelMixin,
                  mixins.CreateModelMixin,
